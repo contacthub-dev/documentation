@@ -23,16 +23,17 @@ Detailed documentation is available to help you understand the ContactHub
 architecture, protocol, and implementation. Here are the main sections of the
 documentation:
 
-- [Actors](./actors.md): Learn about the different types of actors in the
-  ContactHub system.
-- [Activities](./activities.md): Understand the various ActivityPub activities
-  used for sharing and requesting contact information.
-- [Objects](./objects.md): Discover the structure of the ContactInfo object and
-  how it is used in ContactHub.
-- [Protocol](./protocol.md): Get an overview of the ActivityPub protocol
+- [Actors](/actors): Learn about the different types of actors in the ContactHub
+  system.
+- [Activities](/activities): Understand the various ActivityPub activities used
+  for sharing and requesting contact information.
+- [Objects](/objects): Discover the structure of the ContactInfo object and how
+  it is used in ContactHub.
+- [Protocol](/protocol): Get an overview of the ActivityPub protocol
   implementation in ContactHub.
-- [Privacy](./privacy.md): Learn about the privacy-focused design of ContactHub
-  and how it protects user data.
+
+<!-- - [Privacy](/privacy): Learn about the privacy-focused design of ContactHub and
+  how it protects user data. -->
 
 ## Implementations
 
@@ -40,7 +41,7 @@ ContactHub can be implemented in various programming languages, allowing you to
 choose the most suitable language for your server. Check out the available
 implementations and follow the instructions in their respective README files:
 
-- [Rust](./implementations/rust/README.md)
+- Rust
 
 ## Example Instance
 

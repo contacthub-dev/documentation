@@ -67,5 +67,4 @@ data. This decentralization helps ensure user privacy and prevents a single
 point of failure or data breach.
 
 For more information on the various activities and objects used in ContactHub,
-refer to the [Activities](./activities.md) and [Objects](./objects.md)
-documentation.
+refer to the [Activities](/activities) and [Objects](/objects) documentation.
