@@ -1,42 +1,63 @@
-Hello, world!
-=============
+# ContactHub
 
-Nice one! You're up and running. This site was generated from the contents of your `docs` folder. It
-currently is made of two pages. This one, and `examples.md`, which you can visit by clicking on the
-link on the left side of the page. You can get back to this page by clicking the top left title of
-the page.
+ContactHub is a secure, federated contact information sharing service designed
+to protect your privacy. By using the ActivityPub protocol, ContactHub allows
+you to host your own server and share your contact information with others in a
+decentralized manner. Websites like Amazon, online shops, or any other site
+requiring address information can use our OAuth integration to securely access
+user contact information, automatically updating it when a user modifies their
+details.
 
-## Let's add another page
+## Features
 
-All of your documentation lives under the `docs` directory. You can start adding markdown files, and
-when running the `serve` command you will see changes automatically updated in the browser.
+- Decentralized and federated architecture
+- Privacy-focused: Users control who can access their contact information
+- ActivityPub protocol support
+- OAuth integration for seamless third-party access
+- International-friendly address format
+- Open-source and customizable
 
-Try it - add a new markdown file under `docs`, paste the content below, and watch what happens.
+## Documentation
 
-```markdown
----
-title: Another page
----
+Detailed documentation is available to help you understand the ContactHub
+architecture, protocol, and implementation. Here are the main sections of the
+documentation:
 
-Adding new pages is that simple
-===============================
+- [Actors](./actors.md): Learn about the different types of actors in the
+  ContactHub system.
+- [Activities](./activities.md): Understand the various ActivityPub activities
+  used for sharing and requesting contact information.
+- [Objects](./objects.md): Discover the structure of the ContactInfo object and
+  how it is used in ContactHub.
+- [Protocol](./protocol.md): Get an overview of the ActivityPub protocol
+  implementation in ContactHub.
+- [Privacy](./privacy.md): Learn about the privacy-focused design of ContactHub
+  and how it protects user data.
 
-```
+## Implementations
 
-When you hit save, you should see the left side navigation has updated, and a link to your new page
-shows up.
+ContactHub can be implemented in various programming languages, allowing you to
+choose the most suitable language for your server. Check out the available
+implementations and follow the instructions in their respective README files:
 
-## What next?
+- [Rust](./implementations/rust/README.md)
 
-There are plenty of resources to learn more about Doctave and how to use it effectively. Here are
-some articles to get you started:
+## Example Instance
 
-* [The official tutorial](https://cli.doctave.com/tutorial)
-* [Deployment instructions](https://cli.doctave.com/deployment)
-* [Doctave docs](https://cli.doctave.com/)
+Try out ContactHub with our example instance hosted at
+[contacthub.family](https://contacthub.family). This instance allows you to
+experience the features and functionality of ContactHub without having to set up
+your own server.
 
-## Where can I get help?
+## Contributing
 
-Feel free to open issues on the [Github Repo](https://github.com/Doctave/doctave), especially if
-you did not find an answer to a question in our documentation. You can also reach out directly to
-the maintainer via [Twitter](https://twitter.com/NiklasBegley) or email at nik@doctave.com.
+We welcome contributions to the ContactHub project! If you have any suggestions,
+bug reports, or feature requests, please open an issue on the GitHub repository.
+If you'd like to contribute code or documentation, feel free to submit a pull
+request.
+
+## License
+
+ContactHub is released under the GNU Affero General Public License v3.0. This is
+the same license used by
+[Mastodon](https://github.com/mastodon/mastodon/blob/64fae0efb5348a792311c4f749fc852f0e3d38c9/LICENSE).
